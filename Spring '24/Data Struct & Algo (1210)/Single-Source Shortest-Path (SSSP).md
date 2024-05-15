@@ -1,0 +1,1 @@
+>Given a graph $G = (V,E)$ we want to find the [[Shortest Path]] from a given source vertex $s \in V$ to each vertex $v \in V$ 

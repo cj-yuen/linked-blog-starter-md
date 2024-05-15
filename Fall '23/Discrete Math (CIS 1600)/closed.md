@@ -1,0 +1,1 @@
+>if the [[walk]]/[[path]] $v_o = v_k$ 
