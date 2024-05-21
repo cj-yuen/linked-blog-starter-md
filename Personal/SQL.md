@@ -1,7 +1,35 @@
 #language
-
 ## Keywords
 - <u>SELECT</u>: grab data for specific columns from database
 	$*$ (asterisk): used after SELECT to grab ==all columns== from table
 	column_name(s): select specific columns
 - <u>FROM</u>: specify which table(s) we care about
+	can list multiple tables separated by $,$ (commas)
+- <u>WHERE</u>: filter results by specific criteria 
+	- <u>AND</u>: string together multiple filtering criteria 
+	- <u>OR</u>: string together multiple optional criteria
+- $\%$ (percentage): "wildcards" = unknown information
+	ie. 'Ca$a' matches "Canada" & "California"
+- $\_$ (underline): "wildcard" = unknown but amount known
+	ie. 'B_b' matches "Bob" & "Bub"
+		does not match "Babe" or "Bb"
+- $>$ (less than) & $<$ (greater than): numeric comparisons
+	<u>BETWEEN</u> & <u>AND</u>: comparison for strings
+	```SQL
+	SELECT DISTINCT city 
+	FROM crime_scene_report
+	WHERE city BETWEEN 'W%' AND 'Z%'; 
+	```
+- <u>UPPER()</u>: apply uppercase
+- <u>LOWER()</u>: apply lowercase
+
+## Aggregate Functions
+- <u>MAX</u>: find max value
+- <u>MIN</u>: find min value
+- <u>SUM</u>: calculate sum of column values
+- <u>AVG</u>: calculate avg. of column values
+- <u>COUNT</u>: count # of column values
+- <u>ORDER BY</u>: sort column values
+	- <u>ASC</u>: ascending (smallest $\rightarrow$ largest or A $\rightarrow$ Z)
+	- <u>DESC</u>: descending (largest $\rightarrow$ smallest or Z $\rightarrow$ A)
+- <u>LIMIT</u>: limits the results return by certain amount 
