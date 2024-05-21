@@ -9,17 +9,22 @@
 	- <u>AND</u>: string together multiple filtering criteria 
 	- <u>OR</u>: string together multiple optional criteria
 - $\%$ (percentage): "wildcards" = unknown information
-	ie. 'Ca$a' matches "Canada" & "California"
+	ie. 'Ca%a' matches "Canada" & "California"
+```SQL
+SELECT DISTINCT place
+FROM places_report
+WHERE name like 'Ca%a'
+```
 - $\_$ (underline): "wildcard" = unknown but amount known
 	ie. 'B_b' matches "Bob" & "Bub"
 		does not match "Babe" or "Bb"
 - $>$ (less than) & $<$ (greater than): numeric comparisons
 	<u>BETWEEN</u> & <u>AND</u>: comparison for strings
-	```SQL
-	SELECT DISTINCT city 
-	FROM crime_scene_report
-	WHERE city BETWEEN 'W%' AND 'Z%'; 
-	```
+```SQL
+SELECT DISTINCT city 
+FROM crime_scene_report
+WHERE city BETWEEN 'W%' AND 'Z%'; 
+```
 - <u>UPPER()</u>: apply uppercase
 - <u>LOWER()</u>: apply lowercase
 
