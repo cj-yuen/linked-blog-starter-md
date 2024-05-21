@@ -38,3 +38,19 @@ WHERE city BETWEEN 'W%' AND 'Z%';
 	- <u>ASC</u>: ascending (smallest $\rightarrow$ largest or A $\rightarrow$ Z)
 	- <u>DESC</u>: descending (largest $\rightarrow$ smallest or Z $\rightarrow$ A)
 - <u>LIMIT</u>: limits the results return by certain amount 
+
+## Joining Tables
+- <u>INNER JOIN</u>: (most common) using primary key & foreign key columns
+	![[Pasted image 20240521175912.png]]
+	ie. 
+	![[Pasted image 20240521180708.png]]
+	```SQL
+	SELECT person.name, income.annual_income 
+	FROM income
+	JOIN person
+	ON income.ssn = person.ssn
+	WHERE annual_income > 450000
+	```
+- <u>OUTER JOIN</u>: 
+- <u>LEFT JOIN</u>: 
+- <u>RIGHT JOIN</u>: 
