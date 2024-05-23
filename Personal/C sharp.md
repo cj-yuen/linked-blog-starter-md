@@ -8,3 +8,4 @@
 ## How it works 
 C# $\rightarrow$ [[Intermediate Language (IL) Code]] $\rightarrow$ Native Code
 ![[Pasted image 20240523152401.png]]
+- [[Just-In-Time Compilation (JIT)]] = process of [[Intermediate Language (IL) Code]] $\rightarrow$ Native Code
