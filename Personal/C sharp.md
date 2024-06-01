@@ -9,3 +9,18 @@
 C# $\rightarrow$ [[Intermediate Language (IL) Code]] $\rightarrow$ Native Code
 ![[Pasted image 20240523152401.png]]
 - [[Just-In-Time Compilation (JIT)]] = process of [[Intermediate Language (IL) Code]] $\rightarrow$ Native Code
+
+## Concepts
+- [[Overflowing]] 
+	by default no overflow checking
+
+```C#
+checked 
+{
+	byte number = 255; 
+	number = number + 1;
+}
+```
+	overflow will not happen @runtime & an exception will be thrown
+
+- [[Scope]]
