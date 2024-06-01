@@ -24,3 +24,8 @@ checked
 	overflow will not happen @runtime & an exception will be thrown
 
 - [[Scope]]
+
+## Code Snippets in Visual Studio
+| Shortcut | Code                  |
+| -------- | --------------------- |
+| cw       | `Console.WriteLine()` |
