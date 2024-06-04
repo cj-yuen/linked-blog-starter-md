@@ -29,3 +29,8 @@ checked
 | Shortcut | Code                  |
 | -------- | --------------------- |
 | cw       | `Console.WriteLine()` |
+
+## Type Conversion
+- [[Implicit Type Conversion]] 
+- [[Explicit Type Conversion (Casting)]]
+- [[Non-Compatible Type Conversion]] 
