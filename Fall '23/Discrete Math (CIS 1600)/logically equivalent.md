@@ -1,0 +1,1 @@
+logical propositions have the same true value 

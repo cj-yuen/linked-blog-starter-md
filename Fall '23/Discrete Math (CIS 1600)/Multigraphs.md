@@ -1,0 +1,1 @@
+>graphs that can contains [[loop]] & [[parallel edges]] 
