@@ -1,0 +1,1 @@
+>compiler ==infers== variables type
