@@ -40,4 +40,41 @@ violations["as;ldskf"] // nil
 
 // empty dictionary (String to Int)
 let violations: [String: Int] = [:]
+
+// update dictionaries
+violations["1920 Commons"] = 10000
+```
+
+
+## Control Flow
+### If
+```Swift
+let quantity = 1
+
+if quantity > 0 {
+	print("1")
+} else {
+	print("2")
+}
+
+switch quantity {
+case "CIS 1600":
+	print("Oh no")
+case "CIS 1210":
+	print("Hello help")
+default:
+	print("Course not found")
+}
+```
+
+### For loops
+```Swift
+for i in 0..<5 {
+	print(i)
+}
+
+let names = ["John", "Bob"]
+for name in names {
+	print("Hello, \(name)!")
+}
 ```
