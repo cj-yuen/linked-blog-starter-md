@@ -1,6 +1,5 @@
 >[[Matrices]] that contain the coefficients of [[System of Linear Equations]] 
 
-
 ## Elementary Row Operations
 1) interchange 2 rows of the matrix
 2) multiple a row by a nonzero constant

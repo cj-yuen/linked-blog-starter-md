@@ -12,6 +12,9 @@ a_{m1} & a_{m2} & \dots & a_{mn}
 - no solution
 - infinitely many solutions
 
+## Proposition
+>a [[System of Linear Equations]] has solutions $\leftrightarrow$ iff the [[Rank of a Matrix]]  (coefficient matrix) is equal to the rank of its [[Augmented Matrix]] 
+
 ## Terms
 - [[Kernel of A (ker A)]] 
 - [[Associated Homogeneous System]] 
