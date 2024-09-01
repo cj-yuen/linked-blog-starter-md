@@ -1,4 +1,3 @@
-#lecture_notes  
 ```C
 #include <stdio.h> // where printf() is 
 #include <stdlib.h> // where EXIT_SUCCESS
