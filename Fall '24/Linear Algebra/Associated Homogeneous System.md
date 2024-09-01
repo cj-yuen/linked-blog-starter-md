@@ -1,0 +1,1 @@
+>$Ax = 0$ is called the [[Associated Homogeneous System]] to $Ax=b$ 

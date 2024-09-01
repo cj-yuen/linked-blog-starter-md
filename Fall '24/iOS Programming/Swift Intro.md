@@ -78,3 +78,24 @@ for name in names {
 	print("Hello, \(name)!")
 }
 ```
+
+
+## Optionals
+```Swift
+type 'a option = 
+	| None // nil
+	| Some of 'a  // concrete value 
+```
+
+```Swift
+var name: String? = nil // optional
+var name: String = "John"
+
+name! + "Smith" // "John Smith"
+name?.uppercased() // "JOHN"
+
+if let actualName = name {
+	print(actualName)
+}
+```
+
