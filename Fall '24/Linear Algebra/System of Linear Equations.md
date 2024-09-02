@@ -21,3 +21,6 @@ a_{m1} & a_{m2} & \dots & a_{mn}
 
 ## Methods of Solution
 - [[Gaussian Elimination]] 
+
+## Using Inverse
+- [[Inverse Matrix]] 

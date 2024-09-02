@@ -13,6 +13,11 @@ $$A =
 - [[Upper Triangular Matrix]] & [[Lower Triangular Matrix]] & [[Diagonal Matrix ]]
 - [[Identity Matrix]] 
 - [[Matrix Transpose]] 
+- [[Inverse Matrix]] 
 
 ## Properties
-- [[Symmetric]] 
+- [[Symmetric]] \
+
+## Other Related Terms
+- [[Determinant]] 
+- [[Trace]] 
