@@ -158,3 +158,24 @@ func greet(name: String, age: Int? = nil) -> Int { // function w/args (labeled)
 
 great(name: "John") // call function w/label
 ```
+
+### First-Class Functions (Lambdas)
+```Swift
+let emoji = ["😭", "😎", "🤣"]
+func repeatThrice(string: String) -> String {
+	return "\(string)\(string)\(string)"
+}
+
+emoji.map(repeatThrice)
+
+// Closure
+emoji.map({ string in
+	return "\(string)\(string)\(string)"
+})
+
+// or 
+emoji.map({
+	return "\($0)\($0)\($0)"
+})
+
+```
