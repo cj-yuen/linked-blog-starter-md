@@ -89,7 +89,7 @@ type 'a option =
 
 ```Swift
 var name: String? = nil // optional
-var name: String = "John"
+var name: String = "John"`
 
 name! + "Smith" // "John Smith"
 name?.uppercased() // "JOHN"
@@ -99,3 +99,62 @@ if let actualName = name {
 }
 ```
 
+### Forced Unwraping
+```Swift
+let prices: [String: Int]? = nil
+
+if prices != nil {
+	// Forced Unwrapping
+	prices!["Sushi"] 
+} else {
+	print("Prices not available")
+}
+```
+
+### Optional Binding
+```Swift
+let prices: [String: Int]? = nil
+
+// Optional binding
+if let actualPrices = prices { // could have let prices
+	prices["Sushi"] 
+} else {
+	print("Prices not available")
+}
+```
+
+### Optional Chaining
+```Swift
+let prices: [String: Int]? = nil
+
+// Optional binding
+if let prices { 
+	prices["Sushi"] 
+} else {
+	print("Prices not available")
+}
+
+// Optional Chaining
+let numberOfPrices: Int? = prices?.count
+
+// let numberOfPrices: Int = (prices?.count) ?? 0 
+// set default value in case of nil
+```
+>if `nil` returns `nil`
+
+
+## Functions
+```Swift
+func myFunction() -> Void { // the return type: Void
+	print("Hi I am a function!")
+}
+
+myFunction() // call function
+
+func greet(name: String, age: Int? = nil) -> Int { // function w/args (labeled)
+	print("Hi \(name), I am a function!")
+	return 2 + 2
+}
+
+great(name: "John") // call function w/label
+```
