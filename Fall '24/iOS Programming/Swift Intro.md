@@ -179,3 +179,23 @@ emoji.map({ return "\($0)\($0)\($0)" })
 // trailing closure & assumes 1 line return
 emoji.map { "\($0)\($0)\($0)" }
 ```
+
+## Classes
+```Swift
+// Mark: - Classes
+class Receipt {
+	var items: [String]
+	var amount = Double 
+	// Initialization
+	init(items: [String], amount: Int) { 
+		self.items = []
+	}
+	// method
+	func applyDiscount(percent: Int) {
+		amount *= (100 - percent)/100
+	}
+}
+
+// construct Receipt instance 
+let receipt = Receipt(items: ["Polishing Cloth"], amount: 19) 
+```
