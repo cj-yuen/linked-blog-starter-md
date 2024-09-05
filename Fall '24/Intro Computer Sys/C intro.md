@@ -87,13 +87,11 @@ int main(int argc, char* argc[]) {
 >	name of the program is the first arg.
 
 
-
 ## Formatted I/O
 - many programs need to covert bit values & human readable code
 - often done by following functions/variants
 	[[printf]] 
 	[[scanf]] 
-
 
 ## String w/o Objects
 - strings are <u>central</u> (very important for I/O)
@@ -105,6 +103,7 @@ char str_arr[] = "Hello World!";
 char *str_ptr = "Hello World!";
 ```
 
-
 ## Null Termination
 - mark end of a string w/[[Null Terminator Character]] 
+
+## [[Pointers]] 
