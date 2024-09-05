@@ -174,8 +174,8 @@ emoji.map({ string in
 })
 
 // or 
-emoji.map({
-	return "\($0)\($0)\($0)"
-})
+emoji.map({ return "\($0)\($0)\($0)" })
 
+// trailing closure & assumes 1 line return
+emoji.map { "\($0)\($0)\($0)" }
 ```
