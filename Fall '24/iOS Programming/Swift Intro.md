@@ -186,6 +186,9 @@ emoji.map { "\($0)\($0)\($0)" }
 class Receipt {
 	var items: [String]
 	var amount = Double 
+	var numberOfItems: Int { // quasi-property/method
+		items.count
+	}
 	// Initialization
 	init(items: [String], amount: Int) { 
 		self.items = []
@@ -198,4 +201,95 @@ class Receipt {
 
 // construct Receipt instance 
 let receipt = Receipt(items: ["Polishing Cloth"], amount: 19) 
+receipt.applyDiscount(percent: 20)
+receipt.nubmrOfItems
 ```
+
+## Structs
+```Swift
+struct Receipt {
+	var items: [String]
+	var amount = Double 
+	var numberOfItems: Int {
+		items.count
+	}
+	// Initialization
+	init(items: [String], amount: Int) { 
+		self.items = []
+	}
+	// methods
+	mutating func applyDiscount(percent: Double) {
+		amount *= (100 - percent)/100
+	}
+}
+
+// construct Receipt instance 
+var receipt = Receipt(items: ["Polishing Cloth"], amount: 19) 
+receipt.applyDiscount(percent: 20)
+receipt.nubmrOfItems
+
+receipt.items.append("Apple Vision Pro")
+receipt.numberOfItems
+
+// now receipt2 is a copy of receipt
+let receipt2 = receipt
+receipt2.items.append("Mac Pro")
+```
+
+
+## Enumerations
+```Swift
+@frozen public enum 
+```
+
+
+## Protocols 
+```Swift
+protocol ComputerStore {
+	var name: String { get }
+	func buy Computer() -> Receipt
+}
+```
+
+### Built-in Protocol
+```Swift
+public protocol Equatable {
+	static func == (lhs: Self, rhs: Self) -> Bool
+}
+```
+
+
+## Extensions
+```Swift
+extension Receipt: Equatable {
+	static func ==(lhs: Receipt, rhs: Receipt) -> Bool {
+		return lhs.items = rhs.items && lhs.amount == rhs.amount
+	}
+}
+```
+>add methods after-the-fact
+
+
+## Error Handling 
+```Swift
+enum BankError: Error {
+	case insufficientFunds
+}
+
+struct BankAccount {
+	var funds: Int
+	mutating func transfer()
+}
+
+var alice = BankAccount(funds: 0)
+var bob = BankAccount(funds: 100)
+
+do {
+	try alice.transfer(amount: 100, to: &bob)
+} catch {
+		 print("Couldn't transfer money: \(error)")
+}
+```
+
+### Other Error Handlings
+`try!` & `try?`
