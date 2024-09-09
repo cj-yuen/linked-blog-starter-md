@@ -34,4 +34,4 @@ $$A^{-1} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}^{-1} = \frac{1}{ad - bc}
 provided 
 $$ad - bc \neq 0$$ 
 ### Term 
-- [[Determinant]] 
+- [[Determinants]] 

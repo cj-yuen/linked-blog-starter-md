@@ -1,3 +1,0 @@
-$$ad - bc$$
-provided that...
-$$A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$$

@@ -19,5 +19,5 @@ $$A =
 - [[Symmetric]] \
 
 ## Other Related Terms
-- [[Determinant]] 
+- [[Determinants]] 
 - [[Trace]] 
