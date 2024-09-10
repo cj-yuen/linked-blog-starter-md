@@ -35,7 +35,3 @@
 
 ## [[Non-Naive def. of Probability]] 
 
-## [[Conditional Probability]] 
-- [[Bayes Rule]] 
-- [[Law of Total Probability]] 
-- [[Probability Independence]] 
