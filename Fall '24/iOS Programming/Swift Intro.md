@@ -209,7 +209,7 @@ receipt.nubmrOfItems
 ```Swift
 struct Receipt {
 	var items: [String]
-	var amount = Double 
+	var amount: Double 
 	var numberOfItems: Int {
 		items.count
 	}
