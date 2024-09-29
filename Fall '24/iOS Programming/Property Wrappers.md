@@ -63,3 +63,6 @@ class UserModel: ObservableObject {
 >	redraws when a @Published property changes
 >best for ==sharing an object across an entire section== of an app
 ><u>Ownership:</u> someone else owns the data
+
+
+![[Pasted image 20240919194223.png]]
