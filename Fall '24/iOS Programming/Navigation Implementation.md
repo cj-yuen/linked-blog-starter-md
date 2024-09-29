@@ -1,3 +1,6 @@
+>lets us organize multiple screens
+
+
 ## NavigationView
 >deprecated in recent versions of iOS
 
