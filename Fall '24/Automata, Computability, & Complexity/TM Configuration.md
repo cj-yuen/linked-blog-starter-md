@@ -17,3 +17,11 @@ ___
 	$v$ = string over $\Gamma$ (starting @ & right of curr head)
 
 ## Successor Configuration
+>Consider $M = (Q, q_0, q_a, q_r, \Gamma, \_, \delta)$ & Configuration $C = (u, q,v)$ 
+>Given Case $q \neq q_a$ and $q \neq q_r$ & curr symbol is $\_$:
+>	Case $\delta(q, \_) = (q', \gamma, R)$ ==right move==
+>		then Next$(C)$ $= (u\gamma, q', \epsilon)$ 
+>	Case $\delta(q, \_) = (q', \gamma, L)$ ==left move==
+>		if $u = \epsilon$, then $M$ is @left end, so Next$(C)$ is undefined
+>		else $u$ is non-empty, let $u=u'\sigma'$ (ie. $\sigma'$ is last symbol of $u$)
+>			then Next$(C) = (u', q', \sigma',\gamma)$ 

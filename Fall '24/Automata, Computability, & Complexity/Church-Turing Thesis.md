@@ -1,0 +1,1 @@
+>"If a program on a modern computer can solve a problem, so can a TM"/
