@@ -1,0 +1,2 @@
+>given a multi-variable polynomial w/integer coefficients, are there integer values for the variables that make the polynomial = 0?
+>	There $\exists$ a TM that accepts $HILBERT10$ $\rightarrow$ [[Recognizable Languages]] 

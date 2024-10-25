@@ -22,5 +22,14 @@
 		![[Pasted image 20241023004949.png]]
 - [[Union]] 
 	if 2 languages are [[Decidable Languages]], then so is their <u>union</u> 
-	==Proof:== show that there $\exists$ [[Halting Turing Machines]] $M$ s.t. $M$ accepts input $w$ exactly either $M_1$ or $M_2$ do
+	==Proof:== show that there $\exists$ [[Halting Turing Machines]] $M$ s.t. $M$ accepts input $w$ exactly when either $M_1$ or $M_2$ do
 		![[Pasted image 20241023005045.png]]
+- [[Complement]]
+	if 2 languages are [[Decidable Languages]], then so is their <u>complement</u> 
+	==Proof:== show that there $\exists$ [[Halting Turing Machines]] $M$ s.t. $M$ accepts input $w$ exactly when $M$ does not 
+		![[Pasted image 20241023005149.png]]
+- Concatenation
+- Kleene-*
+- Prefix/Suffix
+- Shuffle 
+- ...
