@@ -1,0 +1,1 @@
+>all other edges, going between vertices in the same DFS tree as long as one vertex is <u>not an ancestor of the other</u> or can go between vertices in different DFS trees in $G_{DFS}$ 

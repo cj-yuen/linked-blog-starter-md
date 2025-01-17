@@ -1,0 +1,1 @@
+>if the vertex set of $H$ is a [[Subset]] of the vertex set of $G$ & if $u$ & $v$ are vertices in $H$, then $(u,v)$ is an edge in $H$ iff $(u,v)$ is an edge in $G$ 

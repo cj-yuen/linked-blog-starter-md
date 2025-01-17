@@ -1,0 +1,1 @@
+>edge that connects a code to itself 

@@ -1,0 +1,1 @@
+>node w/no incoming edges & only outgoing edges 

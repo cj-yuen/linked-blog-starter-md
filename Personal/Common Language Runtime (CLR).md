@@ -1,0 +1,1 @@
+>app sitting in the memory that perform [[Just-In-Time Compilation (JIT)]] 

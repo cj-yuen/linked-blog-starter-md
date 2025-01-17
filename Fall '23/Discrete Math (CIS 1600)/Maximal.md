@@ -1,0 +1,1 @@
+>a graph is not contained in any other [[Connected]] [[Subgraph]] of $G$ 

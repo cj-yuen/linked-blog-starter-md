@@ -1,0 +1,1 @@
+>if $n$ objects are placed into $k$ boxes, then there is at least one box containing at least $\lceil \frac{n}{k} \rceil$ objects 

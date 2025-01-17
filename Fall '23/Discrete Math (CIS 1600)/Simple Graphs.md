@@ -1,0 +1,1 @@
+>graphs w/o [[loop]] & [[parallel edges]] 

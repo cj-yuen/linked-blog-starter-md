@@ -1,0 +1,1 @@
+>substituting backwards given an [[Augmented Matrix]] in [[Row Echelon Form]] 

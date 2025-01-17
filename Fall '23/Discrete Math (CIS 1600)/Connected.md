@@ -1,0 +1,1 @@
+>there is a [[path]] in $G$ between its every pair of vertices 

@@ -1,0 +1,1 @@
+>non-empty sequence $v_0e_0v_1e_1\dots e_{k-1}v_k$ of all vertices & edges in $G$ such that $e_i = \{v_i, v_{i+1} \}$ for all $i<k$. 

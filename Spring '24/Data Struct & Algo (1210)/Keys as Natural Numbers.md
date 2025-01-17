@@ -1,0 +1,1 @@
+>char string $\rightarrow$ integer (ASCII) $\times$ constant $c^{\text{some power}}$ which we can come up w/a method to interpret each key as a natural number

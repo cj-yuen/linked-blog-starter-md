@@ -1,0 +1,1 @@
+>abstract data type (ADT) w/main operations [[Enqueue()]]/[[Dequeue()]] based on [[First-In, First-Out (FIFO)]]

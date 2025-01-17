@@ -1,0 +1,1 @@
+>process of [[Common Language Runtime (CLR)]] translating [[Intermediate Language (IL) Code]] $\rightarrow$ machine/native code
