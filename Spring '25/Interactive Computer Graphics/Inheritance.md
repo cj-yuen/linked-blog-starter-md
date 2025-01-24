@@ -32,3 +32,13 @@ public:
 ```
 >the ==virtual== keyword in the superclass header definition so that C++ knows to check the dynamic type of the function & determine whether to call the super-class or the sub-class version
 >	add ==override== to function definition in subclass header
+
+
+## Abstract Function (Purely Virtual)
+>functions that we cannot provide a definition in super-class but can provide in subclas
+>	<u>Syntax:</u> use `virutal` + `=0`
+>		ie. `virtual float getArea const = 0;`
+
+## Friend Classes
+>for classes that are related & wants to share some functionality but not that close as inheritance
+- is ==NOT== inherited, transitive, or reciprocal
