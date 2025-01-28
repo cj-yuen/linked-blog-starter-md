@@ -14,4 +14,8 @@ Traverse (Node n, Matrix T) {
 	}
 }
 ```
->recursively traverse each node's children until reaching a leaf node
+>recursively traverse each node's children until reaching a leaf node 
+
+
+## C++ Classes
+- [[C++ Node Class]]

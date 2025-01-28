@@ -82,7 +82,7 @@ vec3::vec3(float f)
 {}
 
 vec3::vec3(float x, float y, float z)
-	: x(s), y(y), z(z), example{x,y,z}
+	: x(x), y(y), z(z), example{x,y,z}
 {}
 
 vec3::vec3()
