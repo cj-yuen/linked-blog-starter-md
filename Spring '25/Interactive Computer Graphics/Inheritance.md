@@ -35,9 +35,26 @@ public:
 
 
 ## Abstract Function (Purely Virtual)
->functions that we cannot provide a definition in super-class but can provide in subclas
+>functions that we cannot provide a definition in super-class but can provide in subclass
 >	<u>Syntax:</u> use `virutal` + `=0`
 >		ie. `virtual float getArea const = 0;`
+
+```C++
+class Shape {
+	virutal void printName() {
+		cout << "shape" << endl;
+	}
+	virtual float area() = 0;
+};
+
+class Square : public Shape {
+	void printName() override{
+		cout << "square" << endl;
+	}
+	
+	float area() override;
+}
+```
 
 ## Friend Classes
 >for classes that are related & wants to share some functionality but not that close as inheritance
