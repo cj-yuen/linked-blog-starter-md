@@ -36,4 +36,11 @@
 
 ## [[Interpolation]]
 ![[Pasted image 20250131145338.png]]
+![[Pasted image 20250131151238.png]]
+
+## Light Approximation (RGB)
+![[Pasted image 20250131151306.png]]
+![[Pasted image 20250131151510.png]]
+
+![[Pasted image 20250131151521.png]]
 
