@@ -32,3 +32,8 @@
 >	==Solution:== [[Painter's Algorithm]] (per-pixel basis)
 >		![[Pasted image 20250131143733.png]]
 >	use [[Z-Buffering]]
+
+
+## [[Interpolation]]
+![[Pasted image 20250131145338.png]]
+
