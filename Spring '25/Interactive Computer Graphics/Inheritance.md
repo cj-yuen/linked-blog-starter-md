@@ -9,7 +9,7 @@
 
 ```C++
 class Geometry {
-portected:
+protected:
 	int sides;
 	int size;
 
