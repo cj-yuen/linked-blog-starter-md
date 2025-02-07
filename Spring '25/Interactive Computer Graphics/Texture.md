@@ -15,3 +15,11 @@
 ![[Pasted image 20250206201839.png]]
 
 ## [[Normal Maps]]
+
+## Shading vs. Reflection Models
+![[Pasted image 20250207144901.png]]
+
+### Specific Models
+- [[Gouraud Shading Model]]
+- [[Phong Shading Model]]
+-[[Blinn-Phong Reflection Model]]
