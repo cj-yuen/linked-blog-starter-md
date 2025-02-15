@@ -1,0 +1,1 @@
+>a cryptographic hash of data that requires the user's private key to create but only the user's public key to verify

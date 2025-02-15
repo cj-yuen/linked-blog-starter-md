@@ -1,0 +1,2 @@
+>"a blockchain should continue to operate so long as 'bad actors' constitute no more than 1/3 of the network's total nodes"
+>	essentially when a node proposes a block to append to the [[Blockchain]], it needs to gain at least 2/3 of node validators before the proposal is valid

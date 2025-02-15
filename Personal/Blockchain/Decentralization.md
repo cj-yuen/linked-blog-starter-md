@@ -1,0 +1,1 @@
+>through storing the same data on various machines rather than 1
