@@ -1,0 +1,1 @@
+>new primitives to represent both a unit of ownerships & a unit of value within a [[Blockchain]] application

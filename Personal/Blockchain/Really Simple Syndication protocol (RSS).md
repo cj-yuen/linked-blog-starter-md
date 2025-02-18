@@ -1,0 +1,2 @@
+>open-source web feed format that allows users to subscribe to content from other users/websites that they follow
+>	frequently used to subscribe to content outlets such as blog entries, news headlines, & podcast episodes 

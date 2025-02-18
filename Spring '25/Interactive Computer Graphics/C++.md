@@ -27,4 +27,3 @@
 - [[Const]]
 - [[Inheritance]]
 - [[Collections]]
-- [[Rasterization]]

@@ -1,0 +1,2 @@
+>essentially acts as a massive, decentralized "ledger" that permanently records all financial transactions on the network 
+>	maintained & replicated on millions of computers as "miners" or "validators" who are rewarded for maintaining the ledger through Bitcoin [[Tokens]] which is determined through 

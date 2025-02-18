@@ -1,0 +1,1 @@
+>voluntary users provided a pair of coins for [[Decentralized Exchanges (DEXs)]]

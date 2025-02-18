@@ -1,0 +1,2 @@
+>decentralized smart contracts act as cryptocurrency exchange stations w/money coming from [[Liquidity Providers (LPs)]] for traders to swap
+>	these [[Liquidity Providers (LPs)]] receive part of the transaction fees which earns "interest" on their pooled coins
