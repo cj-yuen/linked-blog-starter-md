@@ -20,7 +20,7 @@ glBindBuffer(GL_ARRAY_BUFFER, vbo); // tells OpenGL that we want to put data int
 
 glBufferData(GL_ARRAY_BUFFER, 12*sizeof(float), vertices.data(), GL_STATIC_DRAW); 
    // gLBufferData requires a pointer to the 1st element of the float array, which
-   // arra::data() gives us. As exists for std::vector
+   // array::data() gives us. As exists for std::vector
 
 glBindBuffer(GL_ARRAY_BUFFER, cbo); // do the same for our colors (pretend there's
    // another float array for colors & that we call bufferData again). Color 
