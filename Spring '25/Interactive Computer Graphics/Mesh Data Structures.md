@@ -55,3 +55,93 @@
 ![[Pasted image 20250225150635.png]]
 ![[Pasted image 20250225150641.png]]
 ![[Pasted image 20250225150648.png]]
+
+### Split Edge
+>when updating pointers, all pointers between elements are symmetrical (if you update `vertex v -> edge e`, then edge e must also `e -> v`
+```C++
+class Face {
+	HalfEdge *edge;
+	friend class HalfEdge;
+}
+
+class HalfEdge {
+private:
+	Face *face;
+	HalfEdge *next;
+	HalfEdge *sym;
+	Vertex *vert;
+	
+	friend class Vertex;
+	friend class Face;
+	
+public:
+	void setVertex(Vertex *v) {
+		this->vert = v;
+		v->edge = this;
+	}
+	
+	void setFace(Face *f){ 
+	}
+}
+```
+
+### Process .obj -> Half-Edge structure
+```C++
+v x y z 
+v x y z 
+v x y z
+v x y z
+
+f a/a/a a/a/a a/a/a
+f b/b/b b/b/b b/b/b
+f c/c/c c/c/c c/c/c
+f d/d/d d/d/d d/d/d
+
+void loadOBJ(QString filepath) {
+	// 0. Set up file parsing boilerplate code
+	
+	// 1. Read all the v lines in the file
+	if (line begins with "v ") {
+		parse the x y z tokens for floating point numbers
+		uPtr<Vertex> v = mkU<Vertex>(x, y, z);
+	}
+	
+	std::map<pair<Vertex*, Vertex*>, HalfEdge*> symPairingData;
+	
+	eles if (line begins with "f") {
+		uPtr<Face> f = mkU<Face>();
+		HalfEdge* prev = nullptr;
+		HalfEdge *firstHE = nullptr;
+		
+		for (each number triplet on f line) {
+			uPtr<HalfEdge> e = mkU<HalfEdge>();
+			int idx = triplet.firstNumber;
+			Vertex *vNext = this->vertices[idx - 1].get();   // .get() returns a *
+														 // pointer to the heap
+			e->setVertex(vNext);
+			e->setFace(f.get());
+			
+			Vertex *vPrev = triplet - 1 except mod number of triplets in f line;
+			// I suggest wrigting code that enforces a consistent ordering
+			// on the pair, for example, always putting 
+			// vertex with the lower mem address as the 1st element
+			pair<Vertex*, Vertex*> key = VPrev< vNext ? {vPrev, vNext} : {vNext, vPrev};
+			if (symPairingData.contains(key)) {
+				edge->setSym(symPairingData.at(key));
+			}
+			else {
+				symPairingData.insert(key);
+			}
+			
+			if (prev != nullptr) {
+				prev->next = e.get();
+			}
+			else {
+				firstHE = e.get();
+			}
+			prev = e.get();
+		}
+		prev-> next = firstHE;
+	}
+}
+```
