@@ -22,4 +22,33 @@
 ### Specific Models
 - [[Gouraud Shading Model]]
 - [[Phong Shading Model]]
--[[Blinn-Phong Reflection Model]]
+- [[Blinn-Phong Reflection Model]]
+
+## Code
+```C++
+texelFetch()
+// give me the int coordinates of the texture
+
+texture()
+// give me a UV coord
+```
+
+## Setting up a [[Texture]] in [[OpenGL]]
+![[Pasted image 20250325140510.png]]
+
+![[Pasted image 20250325140522.png]]
+
+![[Pasted image 20250325141655.png]]
+
+![[Pasted image 20250325142054.png]]
+
+![[Pasted image 20250325143015.png]]
+
+![[Pasted image 20250325143023.png]]
+![[Pasted image 20250325143429.png]]
+![[Pasted image 20250325143750.png]]
+![[Pasted image 20250325143801.png]]
+
+![[Pasted image 20250325144001.png]]
+
+![[Pasted image 20250325144009.png]]
